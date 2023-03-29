@@ -1,0 +1,159 @@
+ .carts {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     height: 120vh;
+     background-color: #22252C;
+     font-family: sans-serif;
+     color: #fff;
+     flex-wrap: wrap;
+
+
+     .cartss {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .cart {
+         width: 350px;
+         height: 360px;
+         background-color: #313741;
+         padding-left: 30px;
+         padding-top: 20px;
+         line-height: 45px;
+         margin-top: 0px;
+
+     }
+
+     h1 {
+         color: #000;
+     }
+
+     h2 {
+         color: #00D7BB;
+     }
+
+     h3 {
+         font-size: 40px;
+         padding-top: 70px;
+         color: #01F3AB;
+     }
+
+     p {
+         width: 300px;
+         line-height: 25px;
+         font-weight: 100;
+         padding-top: 10px;
+
+     }
+
+     .cart:nth-child(2) {
+         height: 370px;
+     }
+ }
+
+
+
+ @media(max-width:1050px) {
+     .carts {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: auto;
+         background-color: #22252C;
+         font-family: sans-serif;
+         color: #fff;
+         flex-wrap: wrap;
+
+         .s {
+             display: none;
+             position: absolute;
+         }
+
+         .cart {
+             width: 90%;
+             height: 220px;
+             background-color: #313741;
+             padding-left: 30px;
+             padding-top: 20px;
+             line-height: 45px;
+             margin-top: 0px;
+             margin: auto;
+         }
+
+         h1 {
+             color: #000;
+         }
+
+         h2 {
+             color: #00D7BB;
+         }
+
+         p {
+             width: 100%;
+             line-height: 25px;
+             font-weight: 100;
+             padding-top: 10px;
+
+         }
+
+         .cart:nth-child(2) {
+             height: 220px;
+         }
+     }
+ }
+
+ @media(max-width:768px) {
+     .carts {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: auto;
+         background-color: #22252C;
+         font-family: sans-serif;
+         color: #fff;
+         flex-wrap: wrap;
+
+         .s {
+             display: block;
+         }
+
+         .cartss .cart {
+             width: 90%;
+             height: auto;
+             background-color: #313741;
+             padding-left: 30px;
+             padding-top: 20px;
+             line-height: 45px;
+         }
+
+         h1 {
+             color: #000;
+         }
+
+         h2 {
+             color: #00D7BB;
+         }
+
+         p {
+             width: 100%;
+             line-height: 25px;
+             font-weight: 100;
+             padding-top: 10px;
+
+         }
+
+
+         h3 {
+             font-size: 25px;
+         }
+
+         .cart:nth-child(2) {
+             height: auto;
+         }
+     }
+ }
