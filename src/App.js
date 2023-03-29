@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Carts />
       <Bra />
+      <Next_navbar />
     </div>
   );
 }
