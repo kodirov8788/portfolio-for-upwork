@@ -1,9 +1,9 @@
 import './App.scss';
+import Next_navbar from './components/Next_navbar/Next_navbar';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <div className="box"></div>
+      <Next_navbar />
     </div>
   );
 }
